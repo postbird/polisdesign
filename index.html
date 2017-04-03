@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>城中文化 - HERE POLIS IS</title>
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1,user-scalable=no">
+	<meta name="description" content="HERE POLIS IS，我们做什么？设计策划、平面设计、数字营销">
+	<meta name="keywords" content="polisdesign,polis,上海城中文化传播有限公司,设计策划,平面设计,数字营销">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="renderer" content="webkit">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/polis.css">
+	<link rel="stylesheet" href="css/anime.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script src="js/jquery-1.11.0.min.js" type='text/javascript' ></script>
+	<script src="js/jquery.slider.js" type='text/javascript' ></script>
+	<script src="js/jquery.smooth-scroll.js" type='text/javascript' ></script>
+	<script src="js/jquery.imgpreload.min.js" type="text/javascript"></script>
+	
+<script type="text/javascript">
+$.imgpreload('img/logo@1x.png',function(){});
+
+$(document).ready(function() {
+	var thisBody = document.body || document.documentElement,
+    thisStyle = thisBody.style,
+    support = thisStyle.transition !== undefined || thisStyle.WebkitTransition !== undefined || thisStyle.MozTransition !== undefined || thisStyle.MsTransition !== undefined || thisStyle.OTransition !== undefined;
+    
+	var the_images = [];
+	var img_num = 0;
+	the_images.push( 'img/header-back-1@1x.jpg' );
+	the_images.push( 'img/header-back-2@1x.jpg' );
+	the_images.push( 'img/header-back-3@1x.jpg' );
+	the_images.push( 'img/section-what-we-do-img-1@1x.png' );
+	the_images.push( 'img/section-what-we-do-img-2@1x.png' );
+	the_images.push( 'img/section-what-we-do-img-3@1x.png' );
+	the_images.push( 'img/section-know-more-about-back@1x.jpg' );
+	the_images.push( 'img/section-our-works-1@1x.jpg' );
+	the_images.push( 'img/section-our-works-2@1x.jpg' );
+	the_images.push( 'img/section-our-works-3@1x.jpg' );
+	the_images.push( 'img/section-our-works-4@1x.jpg' );
+	the_images.push( 'img/section-our-works-5@1x.jpg' );
+	the_images.push( 'img/section-our-works-6@1x.jpg' );
+	the_images.push( 'img/section-our-works-7@1x.jpg' );
+	the_images.push( 'img/section-our-works-8@1x.jpg' );
+	the_images.push( 'img/section-find-more-our-works-back@1x.jpg' );
+	the_images.push( 'img/about/bg@1x.jpg' );
+	the_images.push( 'img/about/about-bottom@1x.jpg' );
+	
+	if($(window).width() > 720 ){
+	the_images.push( 'img/header-back-design@1x.png' );
+	the_images.push( 'img/nav-about-us@1x.png' );
+	the_images.push( 'img/nav-contact@1x.png' );
+	the_images.push( 'img/header-square@1x.png' );
+	the_images.push( 'img/header-title@1x.png' );
+	the_images.push( 'img/header-english-here@1x.png' );
+	the_images.push( 'img/header-english-polis@1x.png' );
+	the_images.push( 'img/header-english-is@1x.png' );
+	the_images.push( 'img/header-arrow.png' );
+	the_images.push( 'img/section-square@1x.png' );
+	the_images.push( 'img/section-square-2@1x.png' );
+	the_images.push( 'img/section-square-3@1x.png' );
+	the_images.push( 'img/section-square-4@1x.png' );
+	the_images.push( 'img/section-what-we-do@1x.png' );
+	the_images.push( 'img/section-what-we-do-c@1x.png' );
+	the_images.push( 'img/section-what-we-do-1@1x.png' );
+	the_images.push( 'img/section-what-we-do-2@1x.png' );
+	the_images.push( 'img/section-what-we-do-4@1x.png' );
+	the_images.push( 'img/section-what-we-do-5@1x.png' );
+	the_images.push( 'img/section-what-we-do-6@1x.png' );
+	the_images.push( 'img/section-what-we-do-7@1x.png' );
+	the_images.push( 'img/section-what-we-do-8@1x.png' );
+	the_images.push( 'img/section-what-we-do-9@1x.png' );
+	the_images.push( 'img/section-what-we-do-10@1x.png' );
+	the_images.push( 'img/section-know-more-about@1x.png' );
+	the_images.push( 'img/section-our-works@1x.png' );
+	the_images.push( 'img/section-our-works-c@1x.png' );
+	the_images.push( 'img/section-our-works-hover@1x.png' );
+	the_images.push( 'img/section-find-more-our-works@1x.png' );
+	the_images.push( 'img/section-contact-us@1x.png' );
+	the_images.push( 'img/section-contact-us-c@1x.png' );
+	the_images.push( 'img/about/header-h1@1x.png' );
+	the_images.push( 'img/about/header-slider-1@1x.png' );
+	the_images.push( 'img/about/header-slider-2@1x.png' );
+	the_images.push( 'img/about/header-slider-3@1x.png' );
+	the_images.push( 'img/about/slider-left@1x.png' );
+	the_images.push( 'img/about/slider-right@1x.png' );
+	}
+	
+	jQuery.imgpreload(the_images,
+	{
+		each: function()
+		{
+			img_num++;
+			var img_opacity = img_num / the_images.length;
+			$("#loading-logo").css("opacity",img_opacity);
+		},
+		all: function()
+		{
+			if(!support){
+				$("#loading-panel").animate({top: "-100%" }, 800 );
+			}else{
+				$("#loading-panel").css("top","-100%");
+			}
+			$("body").css("overflow","auto");
+		}
+	});
+		
+	//$('#header-arrow').smoothScroll();
+	$('#footer>a').smoothScroll();
+	$('#status>li>a').smoothScroll();
+	
+	$('#nav-btn').click(function () {
+		$('#nav ul').slideToggle(600);
+	});
+	
+	if(!support){
+		$("#header-square").animate({marginLeft: "0" }, 1000 );
+		$("#header-title").delay(600).animate({marginLeft: "0" }, 1000 );
+		$("#header-english-here").delay(1600).animate({marginTop: "0" }, 800 );
+		$("#header-english-polis").delay(2000).animate({marginTop: "0" }, 800 );
+		$("#header-english-is").delay(2400).animate({marginTop: "0" }, 800 );
+	}
+	$(window).scroll( function() {              
+		var t = $(window).scrollTop();
+		if(t>=($('#header').height()-$('#nav').height())){
+			$('#nav').addClass('nav-on');
+			$('#status').addClass('show');
+		}else{
+			$('#nav').removeClass();
+			$('#status').removeClass();
+		}
+		
+		if(support){
+			if(t>($('#header').height()+$('#what-we-do').height()+$('#know-more-about-us').height()+$('#our-works').height())){
+				$('#contact-us').addClass('anime-on');
+			}else if(t>($('#header').height()+$('#what-we-do').height()+$('#know-more-about-us').height())){
+				$('#our-works-list').addClass('anime-on');
+			}else if(t>($('#header').height()+$('#what-we-do').height()-$('#what-we-do-part-industrial-design').height())){
+				$('#our-works-header').addClass('anime-on');
+			}else if(t>($('#header').height()+$('#what-we-do-header').height()+$('#what-we-do-part-strategic-design').height())){
+				$('#what-we-do-part-industrial-design').addClass('anime-on');
+			}else if(t>($('#header').height()+$('#what-we-do-header').height())){
+				$('#what-we-do-part-graphic-design').addClass('anime-on');
+			}else if(t>($('#header').height()*0.8)){
+				$('#what-we-do-part-strategic-design').addClass('anime-on');
+			}else if(t>($('#nav').height())){
+				$('#what-we-do-header').addClass('anime-on');
+			}
+		}else{
+			if(t>($('#header').height()+$('#what-we-do').height()+$('#know-more-about-us').height()+$('#our-works').height())){
+				if(!$('#contact-us').hasClass('anime-on')){
+					$('#contact-us').addClass('anime-on');
+					$('#contact-us-square-left').animate({top: "50%" , marginLeft: "-35px" , marginTop: "-39px" }, 1000 ).animate({marginLeft: "-315px"}, 800 );
+					$('#contact-us-square-right').animate({top: "50%" , marginLeft: "-35px" , marginTop: "-39px" }, 1000 ).animate({marginLeft: "244px"}, 800 );
+					$('#contact-us-english').delay(1600).animate({marginTop: "0" }, 800 );
+					$('#contact-us-title').delay(2000).animate({marginTop: "0" }, 800 );
+				}
+			}else if(t>($('#header').height()+$('#what-we-do').height()+$('#know-more-about-us').height())){
+				if(!$('#our-works-list').hasClass('anime-on')){
+					$('#our-works-list').addClass('anime-on');
+					$('.our-works-img img').animate({marginLeft: "0" }, 800 );
+				}
+			}else if(t>($('#header').height()+$('#what-we-do').height()-$('#what-we-do-part-industrial-design').height())){
+				if(!$('#our-works-header').hasClass('anime-on')){
+					$('#our-works-header').addClass('anime-on');
+					$('#our-works-english').animate({marginLeft: "0" }, 1000 );
+					$('#our-works-title').delay(600).animate({marginTop: "0" }, 1000 );
+				}
+			}else if(t>($('#header').height()+$('#what-we-do-header').height()+$('#what-we-do-part-strategic-design').height())){
+				if(!$('#what-we-do-part-industrial-design').hasClass('anime-on')){
+					$('#what-we-do-part-industrial-design').addClass('anime-on');
+					$('#what-we-do-part-industrial-design .what-we-do-english-title').animate({marginLeft: "0" }, 1000 );
+					$('#what-we-do-part-industrial-design .what-we-do-title').delay(600).animate({marginTop: "0" }, 1000 );
+					$('#what-we-do-part-industrial-design .what-we-do-para').delay(1200).animate({marginTop: "0" }, 800 );
+				}
+			}else if(t>($('#header').height()+$('#what-we-do-header').height())){
+				if(!$('#what-we-do-part-graphic-design').hasClass('anime-on')){
+					$('#what-we-do-part-graphic-design').addClass('anime-on');
+					$('#what-we-do-part-graphic-design .what-we-do-english-title').animate({marginLeft: "0" }, 1000 );
+					$('#what-we-do-part-graphic-design .what-we-do-title').delay(600).animate({marginTop: "0" }, 1000 );
+					$('#what-we-do-part-graphic-design .what-we-do-para').delay(1200).animate({marginTop: "0" }, 800 );
+				}
+			}else if(t>($('#header').height()*0.8)){
+				if(!$('#what-we-do-part-strategic-design').hasClass('anime-on')){
+					$('#what-we-do-part-strategic-design').addClass('anime-on');
+					$('#what-we-do-part-strategic-design .what-we-do-english-title').animate({marginLeft: "0" }, 1000 );
+					$('#what-we-do-part-strategic-design .what-we-do-title').delay(600).animate({marginTop: "0" }, 1000 );
+					$('#what-we-do-part-strategic-design .what-we-do-para').delay(1200).animate({marginTop: "0" }, 800 );
+				}
+			}else if(t>($('#nav').height())){
+				if(!$('#what-we-do-header').hasClass('anime-on')){
+					$('#what-we-do-header').addClass('anime-on');
+					$('#what-we-do .section-square').animate({marginLeft: "0" }, 1000 );
+					$('#what-we-do-title').delay(600).animate({marginLeft: "0" }, 1000 );
+					$('#what-we-do-subtitle').delay(1200).animate({marginTop: "0" }, 800 );
+				}
+			}
+			
+		}
+	});
+});
+</script>
+</head>
+<body style="overflow:hidden">
+	<div id="loading-panel">
+		<div id="loading-logo"></div>
+	</div>
+	<div id="nav">
+		<a href="index.html" id="logo"><img src="img/logo@1x.png" alt="Here Polis Is 城中文化"></a>
+		<div id="nav-design"></div>
+		<button type="button" class="btn-navbar" id="nav-btn">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<ul>
+			<li id="nav-about-us"><a href="about.html">About us</a></li>
+			<li id="nav-works"><a href="works.html">Works</a></li>
+			<li id="nav-contact"><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div id="header">
+		<div id="header-background" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<!--<div class="item active" id="carousel-item1"></div>-->
+				<!--<div class="item" id="carousel-item2"></div>-->
+				<div class="item active" id="carousel-item3"></div>
+			</div>
+			<a class="left carousel-control" href="#header-background" data-slide="prev"></a>
+			<a class="right carousel-control" href="#header-background" data-slide="next"></a>
+		</div>
+		<div id="header-text">
+			<div id="header-square-container">
+				<div id="header-square"></div>
+			</div>
+			<div id="header-title-container">
+				<div id="header-title">城中文化</div>
+			</div>
+			<div class="header-english-container" id="header-here">
+				<div id="header-english-here">HERE</div>
+			</div>
+			<div class="header-english-container" id="header-polis">
+				<div id="header-english-polis">POLIS</div>
+			</div>
+			<div class="header-english-container" id="header-is">
+				<div id="header-english-is">IS</div>
+			</div>
+		</div>
+		<a href="#what-we-do" id="header-arrow"></a>
+	</div>
+	
+	<div class="white-content">
+	<div id="what-we-do">
+		<div id="what-we-do-header">
+			<div class="section-square-container">
+				<div class="section-square"></div>
+			</div>
+			<div id="what-we-do-title-container">
+				<div id="what-we-do-title">what we do</div>
+			</div>
+			<div id="what-we-do-subtitle-container">
+				<div id="what-we-do-subtitle">我们做什么</div>
+			</div>
+		</div>
+		<div class="what-we-do-part" id="what-we-do-part-strategic-design">
+			<div class="what-we-do-img">
+				<div class="what-we-do-img-container"><img src="img/section-what-we-do-img-1@1x.png" alt="设计策划"></div>
+				<div class="what-we-do-square"></div>
+				<div class="what-we-do-square-bottom"></div>
+			</div>
+			<div class="what-we-do-english-title-container">
+				<div class="what-we-do-english-title">Strategic Design</div>
+			</div>
+			<div class="what-we-do-title-container">
+				<div class="what-we-do-title">设计策划</div>
+			</div>
+			<div class="what-we-do-para-container">
+				<div class="what-we-do-para">一场优秀的活动策划对于它的受众来说，获得的享受不亚于一部精彩的电影。除了主要的流程之外，最能打动受众的是整场活动中感受到的人性化的细节，而对于细节的把握力，正是我们自信的原因。</div>
+			</div>
+		</div>
+		<div class="what-we-do-part" id="what-we-do-part-graphic-design">
+			<div class="what-we-do-img">
+				<div class="what-we-do-img-container"><img src="img/section-what-we-do-img-2@1x.png" alt="平面设计"></div>
+				<div class="what-we-do-square"></div>
+				<div class="what-we-do-square-bottom"></div>
+			</div>
+			<div class="what-we-do-english-title-container">
+				<div class="what-we-do-english-title">Graphic Design</div>
+			</div>
+			<div class="what-we-do-title-container">
+				<div class="what-we-do-title">平面设计</div>
+			</div>
+			<div class="what-we-do-para-container">
+				<div class="what-we-do-para">眼睛是人类心灵的窗户，优秀的平面设计在让人们在获得舒适的视觉享受之后，也能在心中为它留下一席之地。我们在完善每一个设计细节的同时，也不放过一个又一个可能让人大声叫好的奇思妙想。</div>
+			</div>
+		</div>
+		<div class="what-we-do-part" id="what-we-do-part-industrial-design">
+			<div class="what-we-do-img">
+				<div class="what-we-do-img-container"><img src="img/section-what-we-do-img-3@1x.png" alt="数字营销"></div>
+				<div class="what-we-do-square"></div>
+				<div class="what-we-do-square-bottom"></div>
+			</div>
+			<div class="what-we-do-english-title-container">
+				<div class="what-we-do-english-title">Digital Marketing</div>
+			</div>
+			<div class="what-we-do-title-container">
+				<div class="what-we-do-title">数字营销</div>
+			</div>
+			<div class="what-we-do-para-container">
+				<div class="what-we-do-para">人们喜欢美观而新颖的营销方式，APP、网页、微信、Erp、Crm全系统设计，当人们触摸到这些出色的设计与代码结合的作品时，从指尖就能感受到一个企业的崇高追求。这正是我们希望能为你做到的。</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="know-more-about-us">
+		<a href="about.html" id="know-more-about-us-detail">know more about us</a>
+	</div>
+	
+	<div id="our-works">
+		<div id="our-works-header">
+			<div id="our-works-square"></div>
+			<div id="our-works-english-container">
+				<div id="our-works-english">Our works</div>
+			</div>
+			<div id="our-works-title-container">
+				<div id="our-works-title">作品介绍</div>
+			</div>
+		</div>
+		<div id="our-works-list">
+			<div class="our-works-list-item first-item">
+				<div class="our-works-small-square"></div>
+				<a href="works/work1.html" class="our-works-img"><img src="img/section-our-works-1@1x.jpg" alt=""><div class="our-works-detail"><img src="img/section-our-works-hover@1x.png" alt=""></div></a>
+			</div>
+			<div class="our-works-list-item">
+				<div class="our-works-small-square"></div>
+				<a href="works/work2.html" class="our-works-img"><img src="img/section-our-works-2@1x.jpg" alt=""><div class="our-works-detail"><img src="img/section-our-works-hover@1x.png" alt=""></div></a>
+			</div>
+			<div class="our-works-list-item">
+				<div class="our-works-small-square"></div>
+				<a href="works/work3.html" class="our-works-img"><img src="img/section-our-works-3@1x.jpg" alt=""><div class="our-works-detail"><img src="img/section-our-works-hover@1x.png" alt=""></div></a>
+			</div>
+			<div class="our-works-list-item">
+				<div class="our-works-small-square"></div>
+				<a href="works/work4.html" class="our-works-img"><img src="img/section-our-works-4@1x.jpg" alt=""><div class="our-works-detail"><img src="img/section-our-works-hover@1x.png" alt=""></div></a>
+			</div>
+		</div>
+	</div>
+	
+	<div id="find-more-our-works">
+		<a href="works.html" id="find-more-our-works-detail">find more our works</a>
+	</div>
+	</div>
+	<a href="contact.html" id="contact-us">
+		<div id="contact-us-square-left"></div>
+		<div id="contact-us-square-right"></div>
+		<div id="contact-us-english-container">
+			<div id="contact-us-english">contact us</div>
+		</div>
+		<div id="contact-us-title-container">
+			<div id="contact-us-title">联系我们</div>
+		</div>
+	</a>
+	
+	<div id="footer">
+		<a href="#header"><img src="img/logo@1x.png" alt="返回顶部" /></a>
+	</div>
+	
+	<ul id="status">
+		<li><a href="#header">■</a></li>
+		<li><a href="#what-we-do">■</a></li>
+		<li><a href="#know-more-about-us">■</a></li>
+		<li><a href="#our-works">■</a></li>
+		<li><a href="#contact-us">■</a></li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,689 @@
+@media screen and (max-width: 720px){
+
+#nav-btn {
+	background: none!important;
+	position: fixed;
+	border: 0;
+	padding: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	outline: none;
+	cursor: pointer;
+	color: #333333;
+	display: inline-block;
+	top: 17px;
+	right: 10px;
+	z-index: 10;
+}
+#nav-btn span {
+	display: block;
+	width: 32px;
+	height: 4px;
+	background: #F08C1E;
+	margin-bottom: 5px;
+}
+#nav {
+    height: 60px;
+}
+#logo {
+    top: 12px;
+    width: 160px;
+    background: none;
+}
+#nav-design {
+    display: none;
+}
+#nav ul li a {
+    text-indent: 0;
+    background: none;
+    width: auto;
+    height: auto;
+    padding: 15px 0;
+    color: #FFF;
+}
+#nav ul li {
+    float: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+#nav ul {
+    float: none;
+    position: fixed;
+    top: 0;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding-top: 60px;
+    display: none;
+    background: rgba(255, 151, 0, 0.4);
+    z-index: 9;
+}
+#header {
+    height: 234px;
+}
+#header-text {
+    top: 90px;
+    left: 10px;
+    position: absolute;
+}
+#header-square {
+    background: none;
+}
+#header-square-container {
+    width: 50px;
+    height: 50px;
+    border: 7px solid #ff9700;
+    display: none;
+}
+#header-title {
+    background: none;
+    text-indent: 0;
+    color: #FFF;
+    letter-spacing: .8em;
+    font-size: 30px;
+    width: auto;
+}
+#header-title-container {
+    width: 222px;
+    top: 30px;
+    left: 65px;
+    display: none;
+}
+#header-here {
+    top: 0;
+}
+.header-english-container {
+    left: 20px;
+    width: 160px;
+    height: 36px;
+}
+#header-english-here {
+    text-indent: 0;
+    color: #FFF;
+    background: none;
+    font-size: 24px;
+    margin: 0;
+}
+#header-english-polis {
+    text-indent: 0;  color: #FFF;  background: none;  
+    font-size: 24px;
+    margin: 0;
+}
+#header-polis {
+    top: 40px;
+}
+#header-english-is {
+    text-indent: 0;  color: #FFF;  background: none;  
+    font-size: 24px;
+    margin: 0;
+}
+#header-is {
+    top: 84px;
+}
+#nav.nav-on #nav-design {
+    display: none;
+}
+#what-we-do-header {
+    width: 100%;
+    height: auto;
+}
+.section-square {
+    background: none;
+}
+.section-square-container {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #ff9700;
+    margin-left: 10px;
+}
+#what-we-do-title-container {
+    margin-left: 0;
+    height: 50px;
+    margin-bottom: 5px;
+}
+#what-we-do-title {
+    background: none;
+    text-indent: 0;
+    color: #ff9700;
+    font-size: 43px;
+    text-align: center;
+    margin: 0;
+}
+#what-we-do-subtitle-container {
+    margin: 0;
+}
+#what-we-do-subtitle {
+    background: none;
+    font-size: 16px;
+    text-indent: 0;
+    letter-spacing: 1em;
+    text-align: center;
+    margin: 0;
+}
+.what-we-do-part {
+    width: 100%;
+    margin: 40px 0;
+    height: auto;
+}
+.what-we-do-img {
+    width: 100%;
+    height: auto;
+    position: static;
+}
+.what-we-do-img-container {
+    width: 100%;
+    height: auto;
+    position: static;
+    text-align: center;
+}
+.what-we-do-square {
+    background: none;
+    display: none;
+}
+.what-we-do-square-bottom {
+    background: none;
+    display: none;
+}
+.what-we-do-english-title-container {
+    width: 100%;
+    position: static;
+    height: 30px;
+    margin-top: 10px;
+    left: 0;
+}
+#what-we-do-part-strategic-design .what-we-do-english-title,#what-we-do-part-graphic-design .what-we-do-english-title,#what-we-do-part-industrial-design .what-we-do-english-title {
+    background: none;
+    text-indent: 0;
+    color: #ff9700;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+}
+.what-we-do-title-container {
+    width: 100%;
+    position: static;
+    height: 20px;
+}
+#what-we-do-part-strategic-design .what-we-do-title,#what-we-do-part-graphic-design .what-we-do-title,#what-we-do-part-industrial-design .what-we-do-title {
+    background: none;
+    text-indent: 0;
+    text-align: center;
+    letter-spacing: .8em;
+    margin: 0;
+}
+.what-we-do-para-container {
+    width: 100%;
+    position: static;
+    height: auto;
+}
+#what-we-do-part-strategic-design .what-we-do-para,#what-we-do-part-graphic-design .what-we-do-para,#what-we-do-part-industrial-design .what-we-do-para {
+    background: none;
+    text-indent: 0;
+    line-height: 20px;
+    padding: 10px 20px;
+    color: #636363;
+    margin: 0;
+}
+#what-we-do-part-graphic-design .what-we-do-english-title-container {
+    width: 100%;
+}
+#know-more-about-us {
+    margin: 0;
+    height: 120px;
+    background: url(../img/section-know-more-about-back@1x.jpg) 50% 50% no-repeat;
+}
+#know-more-about-us-detail {
+    width: 100%;
+    position: static;
+    text-align: center;
+    background: none;
+    margin: 0;
+    text-indent: 0;
+    color: #FFF;
+    border: 0;
+    line-height: 120px;
+    font-size: 26px;
+}
+#our-works-header {
+    width: 100%;
+    height: auto;
+}
+#our-works-square {
+    background: none;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #ff9700;
+    position: static;
+    margin-left: 10px;
+}
+#our-works {
+    padding-top: 40px;
+}
+#our-works-english-container {
+    width: 100%;
+    position: static;
+    height: 40px;
+}
+#our-works-english {
+    background: none;
+    text-indent: 0;
+    text-align: center;
+    color: #ff9700;
+    font-size: 32px;
+    margin: 0;
+}
+#our-works-title {
+    background: none;  font-size: 16px;  text-indent: 0;  letter-spacing: 1em;  text-align: center;
+    margin: 0;
+}
+#our-works-title-container {
+    width: 100%;
+    position: static;
+}
+#our-works-list {
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+.our-works-list-item {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: 0;
+    margin-bottom: 10px;
+    position: static;
+}
+.our-works-small-square {
+    display: none;
+}
+.our-works-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+.our-works-detail {
+    display: none;
+}
+#find-more-our-works {
+    margin-top: 20px;
+    background: url(../img/section-find-more-our-works-back@1x.jpg) 50% 50% no-repeat;
+}
+#find-more-our-works-detail {
+    width: 100%;
+    position: static;
+    margin: 0;
+    background: none;
+    text-indent: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    border: 0;
+    height: auto;
+    line-height: 106px;
+}
+#contact-us {
+    margin-top: 0;
+    height: 342px;
+}
+#contact-us-square-left {
+    display: none;
+}
+#contact-us-square-right {
+    display: none;
+}
+#contact-us-english-container {
+    width: 100%;
+    position: static;
+    margin: 0;
+    padding-top: 132px;
+    height: auto;
+}
+#contact-us-english {
+    background: none;
+    text-indent: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+#contact-us-title-container {
+    width: 100%;
+    position: static;
+    margin: 10px 0;
+}
+#contact-us-title {
+    background: none;
+    text-indent: 0;
+    color: #000;
+    margin: 0;
+    letter-spacing: 1em;
+    text-align: center;
+}
+#status {
+    display: none;
+}
+#carousel-item1 {
+    background: url(../img/header-back-1@1x.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+#carousel-item2 {
+    background: url(../img/header-back-2@1x.jpg) 50% bottom no-repeat;
+    background-size: cover;
+}
+#carousel-item3 {
+    background: url(../img/header-back-3@1x.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+#footer img {
+    width: 160px;
+    height: 32px;
+    margin-top: 20px;
+}
+#footer {
+    height: 80px;
+}
+.our-works-img img {
+    margin: 0;
+}
+#about-page #logo {
+    background-size: contain;
+}
+#about-page #nav-about-us a,#about-page #nav-works a,#about-page #nav-contact a {
+    width: 100%;
+    height: auto;
+    background: none;
+    color: #000;
+}
+#about-page #nav.white #nav-about-us a,#about-page #nav.white #nav-works a,#about-page #nav.white #nav-contact a {
+    background: none;
+    color: #FFF;
+}
+#about-header {
+    padding-top: 120px;
+}
+#about-header h1 {
+    width: 100%;
+    background: none;
+    text-indent: 0;
+    text-align: center;
+    font-size: 30px;
+    height: auto;
+}
+.left.about-control {
+    display: none;
+}
+.about-control {
+    display: none;
+}
+.about-slide-c {
+    display: none;
+}
+#about-page .carousel-inner .item {
+    text-indent: 0;
+}
+#about-page .carousel-inner h2 {
+    color: #ff9700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#about-page .carousel-inner p {
+    padding: 0 20px;
+    line-height: 22px;
+}
+#slide-control {
+    display: none;
+}
+.about-panel {
+    width: 100%;
+}
+#about-panel-1 h1 {
+    background: none;
+    height: auto;
+    font-size: 20px;
+}
+.about-panel {
+    text-indent: 0;
+    color: #FFF;
+    padding-top: 28%;
+}
+.about-panel h1 {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    font-size: 22px;
+    text-align: center;
+    text-indent: 0;
+}
+.about-panel p {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.3em;
+    text-indent: 0;
+}
+#about-panel-1 p {
+    background: none;
+    width: 100%;
+    text-align: center;
+}
+#about-panel-1 {
+    padding-top: 90px;
+}
+#about-page #nav.white #logo {
+    background-size: contain;
+}
+#about-panel-2 h1 {
+    background: none;
+}
+#about-panel-2 p {
+    background: none;
+}
+.about-panel-img img {
+    width: 76px;
+}
+#about-panel-2 {
+    padding-top: 60px;
+}
+#about-panel-3 h1 {
+    background: none;
+}
+#about-panel-3 p {
+    background: none;
+}
+#about-panel-3 {
+    padding-top: 60px;
+}
+#about-panel-4 h1 {
+    background: none;
+}
+#about-panel-4 p {
+    background: none;
+}
+#about-panel-4 {
+    padding-top: 60px;
+}
+#about-panel-5 h1 {
+    background: none;
+}
+#about-panel-5 p {
+    background: none;
+}
+#about-panel-5 {
+    padding-top: 60px;
+}
+#be-our-partner a h1 {
+    width: 100%;
+    text-indent: 0;
+    color: #000;
+    background: none;
+    height: auto;
+    font-size: 22px;
+}
+#be-our-partner a {
+    padding-top: 170px;
+}
+#about-page #footer img {
+    width: 160px;
+    height: 32px;
+    margin-top: 20px;
+}
+#contact-page #nav-about-us a,#contact-page #nav-works a,#contact-page #nav-contact a {
+    width: 100%;
+    height: auto;
+    background: none;
+    color: #000;
+}
+#contact-header-logo {
+    width: 100%;
+    text-indent: 0;
+    height: auto;
+    background: none;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#contact-header {
+    width: 100%;
+    padding-top: 90px;
+    height: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px dashed #DDD;
+}
+#contact-header-h1 {
+    width: 100%;  text-indent: 0;  background: none;  font-size: 26px;  text-align: center;
+    height: auto;
+}
+#contact-panel {
+    width: 100%;
+    margin-top: 30px;
+}
+#contact-left {
+    width: 100%;
+    float: none;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #DDD;
+}
+#contact-p2 {
+    text-indent: 0;
+    background: none;
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+#contact-tel {
+    text-indent: 0;
+    width: 100%;
+    height: auto;
+    background: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#contact-add {
+    text-indent: 0;  width: 100%;  height: auto;  background: none;  margin-left: 20px;  margin-top: 10px;
+}
+#content-right {
+    float: none;
+    width: 100%;
+    padding: 30px 20px;
+}
+#contact-form p {
+    background: none;
+    text-indent: 0;
+    width: 100%;
+    height: auto;
+}
+.form-content {
+    margin-bottom: 0;
+}
+.form-content label {
+    text-indent: 0;
+    color: #585858;
+    width: 100%;
+    height: auto;
+}
+#label-name, #label-budget, #label-mail, #label-message {
+    background: none;
+}
+#submit {
+    width: 100%;
+    text-indent: 0;
+    line-height: 60px;
+    text-align: center;
+    background-image: none;
+}
+#contact-page {
+    overflow-x: hidden;
+}
+.our-works-list {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+#works-page #our-works {
+    padding-top: 70px;
+}
+.works-desc, .works-content {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+}
+.works-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+.works-desc h1, .works-content h1 {
+    font-size: 18px;
+}
+.works-content img {
+    max-width: 100%;
+}
+.works-content-title {
+    text-indent: 0;
+    background: none;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 24px;
+    color: #ff9700;
+    height: auto;
+}
+.works-content-title #to-top {
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    top: -5px;
+}
+.vframe {
+    width: 100%;
+    height: 120px;
+}
+.vframe ul li {
+    width: 120px;
+    border: 3px solid #E18500;
+    line-height: 120px;
+}
+.left-cover {
+    display: none;
+}
+.right-cover {
+    display: none;
+}
+.vbtn {
+    display: none;
+}
+}
